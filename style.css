@@ -1,0 +1,1606 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Navbar start */
+
+header {
+    background-color: #fefcfb;
+    width: 98%;
+    height: 100%;
+    margin: auto;
+}
+
+section.hero {
+    width: 98%;
+    margin: auto;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+}
+
+.navbar {
+    width: 92%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Volkhov", sans-serif;
+    background-color: transparent;
+    margin: auto;
+    padding: 15px;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+ul li.list {
+    list-style: none;
+}
+
+a.anchor-list {
+    text-decoration: none;
+    color: black;
+}
+
+button.btn1 {
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    color: #fa7436;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+button.btn2 {
+    width: 130px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #fa7436;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+button.btn1:hover {
+    background-color: #fa7436;
+    color: white;
+    transition: 0.5s;
+}
+
+/*Header and Navbar End*/
+
+/* Hero-section start*/
+
+h1.hero-header {
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 65px;
+    font-family: "Volkhov", sans-serif;
+}
+
+h1.hero-header span {
+    color: #fa7436;
+}
+
+.hero-left p {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Poppins", sans-serif;
+    color: grey;
+}
+
+button.discover {
+    margin-top: 40px;
+    width: 175px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fa7436;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #fa7436;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.hero-left {
+    width: 45%;
+}
+
+.hero-right {
+    width: 55%;
+}
+
+.main-one img {
+    width: 750px;
+    height: 191px;
+    z-index: -999;
+    margin-top: 24px;
+}
+
+.main-two {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-two .men1 {
+    width: 500px;
+    height: 530px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+}
+
+.main-two h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.popup {
+    width: 150px;
+    height: 66px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2)0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+    padding: 13px;
+}
+
+.popup1 {
+    width: 173px;
+    height: 74px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 26px;
+    top: 40%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2)0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px;
+}
+
+.item {
+    margin-left: 8px;
+}
+
+.popup1,
+.one1,
+.one2 {
+    font-size: 10px;
+}
+
+.popup2 {
+    width: 173px;
+    height: 70px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 316px;
+    left: 14%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 13px-;
+}
+
+/* Header and Navbar end */
+
+/* Explore Card*/
+.explore-now {
+    width: 100%;
+    height: 240px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    width: 841px;
+    height: 124px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.arrow-part h3 {
+    font-size: 16px;
+    color: #666666;
+    font-family: "Poppins", sans-serif;
+}
+
+.arrow-part p {
+    font-size: 16px;
+    color: #666666;
+    font-family: "Poppins", sans-serif;
+}
+
+/* to do section start */
+section.todo {
+    background-color: #f7f8fc;
+    width: 98%;
+    margin: auto;
+    height: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.todo-cards {
+    width: 80%;
+    margin: auto;
+    height: 560px;
+}
+
+.head {
+    font-size: 48px;
+    font-family: "Volkhov", sans-serif;
+}
+
+.head span {
+    color: #fa7436;
+}
+
+.para1 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading-para,
+.head,
+.para1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.sign-up,
+.money,
+.travel {
+    width: 370px;
+    height: 278px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card h3 {
+    margin-top: 80px;
+}
+
+.card p {
+    margin-top: 15px;
+}
+
+/* to do section end*/
+
+/*Discount section start*/
+section.discount {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.discount-cards {
+    width: 80%;
+    height: 762px;
+    margin: auto;
+}
+
+.card-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-one .deals {
+    width: 270px;
+    height: 450px;
+    background-color: #fefcfb;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2)0px 2px 8px 0px;
+}
+
+.name-place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.name-place h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.name-place p {
+    color: #666666;
+}
+
+.location-map {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.location-map p {
+    color: #666666;
+}
+
+.map-place span.offer {
+    color: #fa7436;
+    text-decoration: none;
+    padding: 2px;
+    background-color: #ffe7db;
+    border-radius: 7px;
+}
+
+.map-place span {
+    color: #999999;
+    padding-right: 10px;
+    text-decoration: line-through;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    background-color: white;
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.button.active {
+    background-color: #ff6f2c;
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    border-color: #aaa;
+}
+
+.button.active:hover {
+    background-color: #e65a1e;
+}
+
+/* .img-btn {
+    position: absolute;
+    margin: 100px;
+    margin-top: 160px;
+    cursor: pointer;
+    width: 132px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fa7436;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #fa7436;
+    font-family: "Poppins", sans-serif;
+} */
+/*Discount section end */
+
+/*Vacation Plan start*/
+section.vacation-plan {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.vacation {
+    width: 80%;
+    height: 880px;
+    margin: auto;
+}
+
+.plan-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.plan-one .deals {
+    width: 370px;
+    height: 447px;
+    background-color: #fefcfb;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.doller {
+    color: #fa7436;
+}
+
+.button-containers {
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+/*Vacation Plan end*/
+
+/*About us start*/
+section.about-us {
+    width: 98%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    background-color: #f7f8fc;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    height: 594px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left-about h1 {
+    font-size: 48px;
+    font-family: "Volkhov", sans-serif;
+    margin-top: 80px;
+}
+
+.left-about h1 span {
+    color: #fa7436;
+}
+
+.left-about p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 31px;
+    margin-top: 13px;
+}
+
+.button-about {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.about-card-one {
+    width: 502px;
+    height: 232px;
+    background-color: #eeeff3;
+    border-radius: 10px;
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    top: 101px;
+    left: 140px;
+}
+
+.about-card-two {
+    width: 502px;
+    height: 232px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    position: absolute;
+}
+
+.h-four-para h4 {
+    color: #444444;
+    font-size: 16px;
+}
+
+.h-four-para.pak {
+    color: #666666;
+    font-size: 14px;
+}
+
+.about-card-one h4 {
+    padding-left: 19px;
+    padding-bottom: 10px;
+    line-height: 31px;
+}
+
+.about-card-one p {
+    padding-left: 19px;
+    padding-bottom: 10px;
+    line-height: 31px;
+}
+
+.left-about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-new {
+    width: 50%;
+}
+
+.cards-new {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    height: 587px;
+}
+
+.mike-logo {
+    position: absolute;
+    bottom: 191px;
+    right: 92%;
+}
+
+/*About us end*/
+
+/* latest blog start*/
+.section-latest-blog {
+    width: 98%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.blog {
+    width: 76%;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blog-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.blog-one .deals {
+    width: 260px;
+    height: 390px;
+    background-color: #fefcfb;
+    border-radius: 8px;
+}
+
+.blog-one .deals img {
+    width: 260px;
+}
+
+.location-map1 p {
+    color: #666666;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.radio-btn {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
+.radio1 {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fa7436;
+}
+
+/* latest blog end*/
+
+/* subscribe section start*/
+.box-sub {
+    background-color: #FA7436;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 1170px;
+    height: 416px;
+    margin: 50px auto;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: -999;
+}
+
+.box-sub h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Volkhov", sans-serif;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 700px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.input-box button {
+    background-color: #e75b1b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 132px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input-box button:hover {
+    background-color: #d14812;
+}
+
+.input-box i {
+    margin-left: 10px;
+    color: grey;
+}
+
+/* subscribe section end*/
+
+/*Footer section start*/
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin-bottom: 15px;
+}
+
+.footer-column h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Volkhov", sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    color: #000;
+}
+
+/*Social Icons*/
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons img:nth-child(2) {
+    background-color: #f37021;
+}
+
+/* Footer bottom*/
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #000;
+}
+
+/*Footer section end*/
+
+/*media query start*/
+@media screen and (max-width: 1504px) {
+    .plan-one .deals {
+        width: 340px;
+        height: 447px;
+    }
+
+    .deals .plans {
+        width: 340px;
+    }
+
+    .vacation {
+        height: 835px;
+        margin-top: 77px;
+    }
+}
+
+@media screen and (max-width: 1445px) {
+    h1.hero-header {
+        font-size: 58px;
+    }
+
+    .main-one img {
+        width: 695px;
+        height: 191px;
+    }
+
+    .main-two .men1 {
+        width: 480px;
+        height: 510px;
+    }
+
+    .hero-left p {
+        font-size: 17px;
+        line-height: 40px;
+    }
+
+    .discount-cards {
+        height: 1065px;
+    }
+
+    .plan-one .deals {
+        width: 320px;
+        height: 417px;
+    }
+
+    .vacation {
+        height: 919px;
+    }
+
+    .deals .plans {
+        width: 320px;
+    }
+
+    .blog {
+        height: 990px;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    h1.hero-header {
+        font-size: 50px;
+    }
+
+    .main-one img {
+        width: 645px;
+        height: 170px;
+    }
+
+    .main-two .men1 {
+        width: 450px;
+        height: 450px;
+    }
+
+    .hero-left p {
+        width: 450px;
+        height: 450px;
+    }
+
+    .discount-cards {
+        height: 1192px;
+    }
+
+    .vacation {
+        height: 1324px;
+    }
+
+    .about {
+        justify-content: center;
+        gap: 82px;
+        height: 1048px;
+        position: relative;
+    }
+
+    .left-about {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        height: 380px;
+    }
+
+    .right-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 70%;
+    }
+
+    .about-card-one {
+        width: 400px;
+        height: 200px;
+        margin-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: end;
+        position: absolute;
+        top: 112px;
+        left: 67px;
+    }
+
+    .about-card-two {
+        width: 400px;
+        height: 200px;
+        margin-top: 90px;
+        position: absolute;
+    }
+
+    .h-four-para h4 {
+        color: #222222;
+        font-size: 15px;
+    }
+
+    .about-card-two p {
+        color: #444444;
+        font-size: 12px;
+    }
+
+    .h-four-para.pak {
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .mike-logo {
+        bottom: 154px;
+        right: 92%;
+    }
+
+    .box-sub {
+        width: 870px;
+        height: 313px;
+    }
+
+    .circle img {
+        width: 284px;
+    }
+
+    .box-sub h2 {
+        font-size: 34px;
+    }
+
+    .input-box {
+        width: 538px;
+        height: 50px;
+    }
+
+    .input-box button {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .input-box i {
+        margin-left: 10px;
+        color: gray;
+    }
+}
+
+@media screen and (max-width:1129px) {
+    h1.hero-header {
+        font-size: 45px;
+    }
+
+    .card-one {
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .about {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    h1.hero-header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-left p {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .main-one img {
+        width: 550px;
+        height: 110px;
+    }
+
+    .main-two .men1 {
+        width: 360px;
+        height: 360px;
+    }
+
+    .ul-list ul {
+        display: flex;
+        gap: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .card h3 {
+        margin-top: 45px;
+    }
+
+    .card p {
+        margin-top: 12px;
+        font-size: 12px;
+    }
+
+    .left-about h1 {
+        font-size: 38px;
+    }
+
+    .left-about p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 904) {
+    h1.hero-header {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-left p {
+        font-size: 10px;
+        line-height: 27px;
+    }
+
+    .main-one img {
+        width: 400px;
+        height: 90px;
+    }
+
+    .main-two .men1 {
+        width: 310px;
+        height: 310px;
+    }
+
+    .ul-list ul {
+        display: flex;
+        gap: 18px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    button.btn-1 {
+        width: 95px;
+        height: 35px;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    h1.logo {
+        font-size: 18px;
+    }
+
+    h1.logo img {
+        width: 16px;
+    }
+
+    button.discover {
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: space-around;
+        /* flex-direction: column; */
+
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+        height: 100%;
+    }
+
+    .main-one img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-two .men1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .discount-cards {
+        height: 1304px;
+    }
+
+    .vacation {
+        height: 1275px;
+        margin-top: 77px;
+    }
+
+    .plan-one .deals {
+        width: 310px;
+        height: 410px;
+    }
+
+    .deals .plans {
+        width: 310px;
+    }
+
+    .blog {
+        height: 1100px;
+    }
+
+    /* subscribe section  */
+    .box-sub {
+
+        width: 575px;
+        height: 220px;
+
+    }
+
+    .circle img {
+        width: 200px;
+
+    }
+
+    .box-sub h2 {
+        font-size: 24px;
+
+    }
+
+    .input-box {
+
+        width: 338px;
+        height: 37px;
+
+    }
+
+    .input-box button {
+
+        width: 75px;
+        height: 28px;
+        font-size: 10px;
+
+    }
+
+    /* Email Icon */
+    .input-box i {
+        margin-left: 10px;
+        color: gray;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .vacation {
+        height: 1677px;
+    }
+
+    .left-about {
+        width: 380px;
+    }
+
+    .right-new {
+        width: 435px;
+        height: 648px;
+    }
+
+    .left-about h1 {
+        font-size: 35px;
+    }
+
+    .left-about p {
+        font-size: 13px;
+    }
+
+
+}
+
+@media screen and (max-width: 726px) {
+    .discount-cards {
+        height: 2125px;
+    }
+
+    /* about section  */
+
+    .right-about {
+        left: 90px;
+    }
+
+    .blog {
+        height: 1950px;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    .hero-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.get-start {
+        font-size: 35px;
+        line-height: 48px;
+        margin-top: 30px;
+    }
+
+    .hero-left p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .hero-right {
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explore {
+        /* position: absolute;
+    top: 892px; */
+        width: 447px;
+        height: 71px;
+    }
+
+    .arrow-part h3,
+    .arrow-part p {
+        font-size: 10px;
+    }
+
+    .login-btn2 .btn2 {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .head {
+        font-size: 40px;
+    }
+
+    .para1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .heading-para,
+    .head,
+    .para1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    div.card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .sign-up,
+    .money,
+    .travel {
+        width: 370px;
+        height: 278px;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .vacation {
+        height: 1700px;
+        margin-top: 77px;
+    }
+
+    .card h3 {
+        margin-top: 70px;
+    }
+
+    .card p {
+        margin-top: 14px;
+        font-size: 14px;
+    }
+
+    .to-do-cards {
+        height: 1205px;
+    }
+
+    /* about card  */
+
+    .about-card-one {
+        width: 297px;
+        height: 156px;
+    }
+
+    .about-card-two {
+        width: 297px;
+        height: 156px;
+        top: 40px;
+        right: 0px;
+    }
+
+    .about-card-one h4 {
+        padding-left: 12px;
+        padding-bottom: 0px;
+        line-height: 22px;
+    }
+
+    .about-card-one p {
+        padding-left: 13px;
+        padding-bottom: 5px;
+        line-height: 27px;
+    }
+
+    .h-four-para h4 {
+        color: #222222;
+        font-size: 18px;
+    }
+
+    .about-card-two p {
+        color: #444444;
+        font-size: 10px;
+    }
+
+    .h-four-para.pak {
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .mike-logo {
+        right: 88%;
+        bottom: 117px;
+    }
+
+    /* subscribe section  */
+    .box-sub {
+
+        width: 370px;
+        height: 200px;
+
+    }
+
+    .circle img {
+        width: 154px;
+
+    }
+
+    .box-sub h2 {
+        font-size: 20px;
+
+    }
+
+    .input-box {
+
+        width: 275px;
+        height: 28px;
+
+    }
+
+
+    .input-box button {
+
+        width: 67px;
+        height: 23px;
+        font-size: 10px;
+        padding: 4px 10px;
+        border-radius: 8px;
+
+    }
+
+    .input-box input {
+
+        padding: 4px 6px;
+        font-size: 14px;
+        flex: 1;
+        border-radius: 10px;
+    }
+
+
+
+    /* Email Icon */
+    .input-box i {
+        margin-left: 10px;
+        color: gray;
+    }
+
+}
+
+@media screen and (max-width: 462px) {
+    .explore {
+        top: 900px;
+        width: 360px;
+        height: 60px;
+    }
+
+    .ldg h3,
+    .ldg p {
+        font-size: 8px;
+    }
+
+    .login-btn2 .btn2 {
+        width: 75px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .discount-cards {
+        height: 2134px;
+    }
+
+    .vacation {
+        height: 1779px;
+        margin-top: 77px;
+    }
+
+    .about {
+        gap: 0px;
+    }
+
+    .cards-new {
+        width: 367px;
+    }
+
+    .about-card-one {
+        width: 297px;
+        height: 156px;
+        left: 60px;
+    }
+
+    /* Footer section  */
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .footer-column {
+        flex: 1;
+        min-width: 220px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-column h3 {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Volkhov", sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .footer-column ul {
+        list-style: none;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #666;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+    }
+
+    .footer-column ul li:hover {
+        color: #000;
+    }
+
+    /* Social Icons */
+    .social-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .social-icons img:nth-child(2) {
+        background-color: #f37021;
+        /* Orange for Instagram */
+    }
+
+    /* Footer Bottom */
+    .footer-bottom {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 14px;
+        color: #666;
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-bottom a {
+        color: #666;
+        text-decoration: none;
+    }
+
+    .footer-bottom a:hover {
+        color: #000;
+    }
+
+}
