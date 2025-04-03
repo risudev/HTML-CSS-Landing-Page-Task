@@ -5,3 +5,6 @@ Here is a simple Landing Page design using HTML and CSS with use media queries t
 # Live Demo
 You can view the live demo of the project: https://landingpagetaskhtmlcss.netlify.app/
 
+# Contact
+For any doubt in this project, Please reach out via email: risudeveloper@gmail.com
+
