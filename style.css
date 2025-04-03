@@ -879,7 +879,7 @@ section.about-us {
 }
 
 @media screen and (max-width: 1445px) {
-    h1.hero-header {
+    h1.head {
         font-size: 58px;
     }
 
@@ -921,7 +921,7 @@ section.about-us {
 }
 
 @media screen and (max-width: 1310px) {
-    h1.hero-header {
+    h1.head {
         font-size: 50px;
     }
 
@@ -1041,7 +1041,7 @@ section.about-us {
 }
 
 @media screen and (max-width:1129px) {
-    h1.hero-header {
+    h1.head {
         font-size: 45px;
     }
 
@@ -1056,7 +1056,7 @@ section.about-us {
 }
 
 @media screen and (max-width: 1028px) {
-    h1.hero-header {
+    h1.head {
         font-size: 40px;
         line-height: 50px;
     }
@@ -1102,7 +1102,7 @@ section.about-us {
 }
 
 @media screen and (max-width: 904) {
-    h1.hero-header {
+    h1.head {
         font-size: 30px;
         line-height: 40px;
     }
@@ -1153,8 +1153,6 @@ section.about-us {
     .hero-section {
         display: flex;
         justify-content: space-around;
-        /* flex-direction: column; */
-
         flex-wrap: wrap;
         width: 80%;
         margin: auto;
@@ -1197,10 +1195,8 @@ section.about-us {
 
     /* subscribe section  */
     .box-sub {
-
         width: 575px;
         height: 220px;
-
     }
 
     .circle img {
@@ -1212,7 +1208,6 @@ section.about-us {
         font-size: 24px;
 
     }
-
     .input-box {
 
         width: 338px;
@@ -1285,7 +1280,7 @@ section.about-us {
         align-items: center;
     }
 
-    h1.get-start {
+    h1.hero-header {
         font-size: 35px;
         line-height: 48px;
         margin-top: 30px;
@@ -1480,8 +1475,8 @@ section.about-us {
         height: 60px;
     }
 
-    .ldg h3,
-    .ldg p {
+    .arrow-part h3,
+    .arrow-part p {
         font-size: 8px;
     }
 
