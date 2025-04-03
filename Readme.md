@@ -3,5 +3,5 @@
 Here is a simple Landing Page design using HTML and CSS with use media queries to make it responsive for different screens.This is a landing page will have a basic layout design.
 
 # Live Demo
-[Click here to view live site:(landingpagetaskhtmlcss.netlify.app/)] 
+You can view the live demo of the project [here](https://your-live-site-url.com).
 
